@@ -32,6 +32,6 @@ jobs:
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.5ddee8f4-52b0-449f-9310-947547fdddd7}}
+          heroku_api_key: ${{secrets.5ddee8f4-52b0-449f-9310-947547fdddd7 }}
           heroku_app_name: ${{ env.insanlik }}
           heroku_email: ${{ secrets.basit55595@gmail.com }}
